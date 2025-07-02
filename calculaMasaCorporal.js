@@ -35,4 +35,4 @@ function calculaMasaCorporal(){
     }
 }
 
-return calculaMasaCorporal();
+calculaMasaCorporal();
