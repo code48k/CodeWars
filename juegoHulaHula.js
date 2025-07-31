@@ -14,6 +14,7 @@ function juego(){
     if (n >= 10){
 
         let resultado = "Genial, ahora a por los trucos";
+
         return resultado;
 
     }
@@ -21,6 +22,7 @@ function juego(){
     else if (n <= 10){
 
         let resultado = "Sigue intentándolo hasta que lo consigas";
+        
         return resultado;
         
     }
