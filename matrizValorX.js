@@ -13,7 +13,7 @@ function obtenerValor(){
 
         if(array[i] === x){
 
-            return true
+            return true;
 
         }
 
