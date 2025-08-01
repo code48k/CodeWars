@@ -14,6 +14,6 @@ function otherAngle(a, b) {
 
 }
 
-let result = otherAngle(90, 90);
+let result = otherAngle(45, 45);
 
 console.log(result);
