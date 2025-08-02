@@ -39,7 +39,7 @@ function convertirNumStr605(){
 
     for (let i=0; i<array.length; i++){
 
-    vacio.push(String(array[i]));
+        vacio.push(String(array[i]));
 
     }
 
@@ -59,7 +59,7 @@ function convertirNumStr1405(){
 
     for (let i=0; i<array.length; i++){
 
-    vacio.push(String(array[i]));
+        vacio.push(String(array[i]));
 
     }
 
@@ -79,7 +79,7 @@ function convertirNumStr7(){
 
     for (let i=0; i<array.length; i++){
 
-    vacio.push(String(array[i]));
+        vacio.push(String(array[i]));
 
     }
 
