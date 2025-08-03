@@ -2,12 +2,11 @@
 
 // Tu tarea consiste en escribir una función que devuelva el tiempo transcurrido desde la medianoche en milisegundos.
 
-function milisegundos(h, m, s){
+function calculoReloj(h, m, s){
 
-    let calculo = (h * 60 * 60 + m * 60 + s) * 1000;
+    let calcular = (h * 60 * 60 + m * 60 + s) * 1000;
 
-    return calculo;
-
+    return calcular;
 }
 
-console.log(milisegundos(1, 0, 0));
+console.log(calculoReloj(1, 0, 0));
