@@ -45,7 +45,7 @@ let numero = 6;
         default:
             console.log("Introduce un número porfavor");
 
-}
+    }
 
 }
 
