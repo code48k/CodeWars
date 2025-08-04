@@ -13,34 +13,34 @@ let numero = 6;
 
     switch (numero){
         case 0:
-            console.log("El número introducido es 0: CERO");
+            console.log("El número introducido es cero");
         break;
         case 1:
-            console.log("El número introducido es 1: UNO");
+            console.log("El número introducido es uno");
         break;
         case 2:
-            console.log("El número introducido es 2: DOS");
+            console.log("El número introducido es dos");
         break;
         case 3:
-            console.log("El número introducido es 3: TRES");
+            console.log("El número introducido es tres");
         break;
         case 4:
-            console.log("El número introducido es 4: CUATRO");
+            console.log("El número introducido es cuatro");
         break;
         case 5:
-            console.log("El número introducido es 5: CINCO");
+            console.log("El número introducido es cinco");
         break;
         case 6:
-            console.log("El número introducido es 6: SEIS");
+            console.log("El número introducido es seis");
         break;
         case 7:
-            console.log("El número introducido es 7: SIETE");
+            console.log("El número introducido es siete");
         break;
         case 8:
-            console.log("El número introducido es 8: OCHO");
+            console.log("El número introducido es ocho");
         break;
         case 9:
-            console.log("El número introducido es 9: NUEVE");
+            console.log("El número introducido es nueve");
         break;
         default:
             console.log("Introduce un número porfavor");
