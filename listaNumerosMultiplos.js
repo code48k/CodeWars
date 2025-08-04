@@ -20,7 +20,9 @@ function numeroMultiplos(limite){
 
         }
     }
+
     return multiplo;
+    
 }
 
 let limite = 20;
