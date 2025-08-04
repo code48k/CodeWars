@@ -21,6 +21,7 @@ function transformarNumero(){
 }
 
 transformarNumero();
+
 console.log(`EL número num1 es pasado a string ${num1}
 EL número num1 es pasado a string ${num2}
 EL número num1 es pasado a string ${num3}`);
