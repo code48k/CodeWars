@@ -9,10 +9,9 @@
 // ('*', 5, 5) --> 25
 // ('/', 49, 7) --> 7
 
-function calculadora(operadores, valor1, valor2){
+function calcular(operador, valor1, valor2){
 
-    switch(operadores){
-
+    switch (operador){
         case "+":
             return valor1 + valor2;
         case "-":
@@ -22,11 +21,13 @@ function calculadora(operadores, valor1, valor2){
         case "/":
             return valor1 / valor2;
         default:
-            return "Operador no válido";
+            return "Error de calculo";
+        
     }
+
 }
 
-console.log(calculadora('+', 4, 7));
-console.log(calculadora('-', 15, 18));
-console.log(calculadora('*', 5, 5));
-console.log(calculadora('/', 49, 7));
+console.log(calcular('+', 4, 7)); // 11
+console.log(calcular('-', 15, 18)); // -3
+console.log(calcular('*', 5, 5)); // 25
+console.log(calcular('/', 49, 7)); // 7
