@@ -18,5 +18,4 @@ function eliminarValoresDuplicados(){
 }
 
 let resultado = eliminarValoresDuplicados();
-
 console.log(resultado);
