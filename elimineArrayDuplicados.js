@@ -5,33 +5,18 @@
 // Ejemplos:
 
 // Entrada -> Salida
-// [1, 1, 2] -> [1, 2]
 // [1, 2, 1, 1, 3, 2] -> [1, 2, 3]
 
-function duplicados1(){
+function eliminarValoresDuplicados(){
 
-let array1 = [1, 1, 2];
+    let array = [1, 2, 1, 1, 3, 2];
 
-let borrar1 = [...new Set(array1)];
+    let resultado = [...new Set(array)];
 
-console.log(borrar1);
-
-}
-
-duplicados1();
-
-// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-function duplicados2(){
-
-let array2 = [1, 2, 1, 1, 3, 2];
-
-let borrar2 = [...new Set(array2)];
-
-console.log(borrar2);
+    return resultado;
 
 }
 
-duplicados2();
+let resultado = eliminarValoresDuplicados();
 
-// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+console.log(resultado);
