@@ -33,7 +33,7 @@ function devolucionMultiplos2(x, n){
 
     let array2 = [];
 
-    for(let i=2; i<=n; i++){
+    for(let i=1; i<=n; i++){
 
         array2.push(x * i);
 
@@ -43,7 +43,7 @@ function devolucionMultiplos2(x, n){
 
 }
 
-let resultado2 = devolucionMultiplos2(2, 10);
+let resultado2 = devolucionMultiplos2(2, 5);
 console.log(resultado2);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
