@@ -6,8 +6,8 @@
 
 // https://en.wikipedia.org/wiki/Triangle
 
-let angulo1 = 45; // ÁNGULO DE 45 DE GRADOS
-let angulo2 = 45; // ÁNGULO DE 45 DE GRADOS
+let angulo1 = 45; // ÁNGULO DE 45º
+let angulo2 = 45; // ÁNGULO DE 45º
 let sumaTotal = 180; // TENEMOS QUE CALCULARLO, SABEMOS QUE LA SUMA DE TODOS LOS ÁNGULOS TIENE QUE DAR EN LA SUMA 180º, POR LO CUAL, EL OTRO SERÍA 90º Y SERÍA UN TRIÁNGULO EQUILÁTERO. 
 
 function triangulo(a, b){ // DOS PARAMETROS QUE VIENE DE LLAMADA DE LA FUNCIÓN.
