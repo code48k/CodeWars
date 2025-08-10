@@ -11,4 +11,4 @@ function suma(){ // DECLARACIÓN DE LA FUNCIÓN LLAMADA 'suma()'
 }
 
 let calculo = suma(); // AQUÍ EJECUTAMOS LA FUNCIÓN 'suma()', LA METEMOS DENTRO DE UNA VARIABLE LLAMADA 'calculo'.
-console.log(calculo); // IMPRIMIMOS EL VALOR DE LA VARIABLE 'calculo' QUE ES LA SUMA TOTAL DEL CALCULO 'a + b'.
+console.log(calculo); // IMPRIMIMOS EL VALOR DE LA VARIABLE 'calculo', QUE ES LA SUMA TOTAL DEL CALCULO 'a + b'.
