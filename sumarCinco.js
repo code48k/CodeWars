@@ -1,7 +1,7 @@
 // Creé esta función para sumar cinco a cualquier número que se le pase y devolver el nuevo valor.
 
 let a = 5; // DECLARAMOS E INICIAMOS UNA VARIABLE CON EL VALOR '5'.
-let b; // AQUÍ SOLO DECLARAMOS UNA VARIABLE SIN VALOR, PARA LUEGO ASIGNARLE ALGÚN VALOR.
+let b; // DECLARAMOS UNA VARIABLE SIN NINGÚN VALOR, PARA DESPUÉS ASIGNARLE ALGÚN VALOR.
 
 function suma(){ // DECLARACIÓN DE LA FUNCIÓN LLAMADA 'suma()'
 
@@ -11,4 +11,4 @@ function suma(){ // DECLARACIÓN DE LA FUNCIÓN LLAMADA 'suma()'
 }
 
 let calculo = suma(); // AQUÍ EJECUTAMOS LA FUNCIÓN 'suma()', LA METEMOS DENTRO DE UNA VARIABLE LLAMADA 'calculo'.
-console.log(calculo); // IMPRIMIMOS EL VALOR TOTAL DEL CALCULO 'a + b'.
+console.log(calculo); // IMPRIMIMOS EL VALOR DE LA VARIABLE 'calculo' QUE ES LA SUMA TOTAL DEL CALCULO 'a + b'.
