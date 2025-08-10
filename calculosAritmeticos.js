@@ -21,7 +21,7 @@ function calculos(operador, valor1, valor2){ // DECLARAMOS UNA FUNCIÓN CON TRES
         case "/": // CADA OPCIÓN POSIBLE; SI LA VARIABLE COINCIDE CON EL VALOR DEL 'case "/"', EJECUTA ESE BLOQUE.
             return valor1 / valor2; // OPERACIÓN PARA REALIZAR LA DIVISIÓN.
         default: // EL PLAN B, LO QUE PASA SI NADA COINCIDE.
-            return "Introduce un número correcto"
+            return "Introduce un número correcto";
     }
     
 }
