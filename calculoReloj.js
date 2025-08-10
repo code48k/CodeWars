@@ -4,7 +4,7 @@
 
 function calculoReloj(h, m, s){ // DECLARAMOS LA FUNCIÓN Y LE ASIGNAMOS TRES PARAMETROS QUE SON '(h, m, s)'.
 
-    let calculo = ((h * 60 * 60 + m * 60 + s) * 1000); // EN ESTA VARIABLE HACEMOS EL CALCULO DE UNA HORA EN MILISEGUNDOS.
+    let calculo = (h * 60 * 60 + m * 60 + s) * 1000; // EN ESTA VARIABLE HACEMOS EL CALCULO DE UNA HORA EN MILISEGUNDOS.
 
     return calculo; // RETORNAMOS EL VALOR DE LA VARIABLE 'calculo', PARA USARLA DESPUÉS.
 
