@@ -14,7 +14,7 @@ function triangulo(a, b){ // DOS PARAMETROS QUE VIENE DE LLAMADA DE LA FUNCIÓN.
 
     let calculo = sumaTotal - (a + b); // 180º SERÍA EL TOTAL DE LA SUMA DE LOS ÁNGULOS DEL TRIÁNGULO, 'a + b' SON DE 90º, EL OTRO TENDRÍA OTROS 90º PARA FORMAR UN TRIÁNGULO EQUILÁTERO.
 
-    return calculo; // RETORNAMOS EL VALOR DE LA FUNCIÓN.
+    return calculo; // RETORNAMOS EL VALOR DE LA FUNCIÓN, PARA DESPUÉS EJECUTARLO EN LLAMADA 'let calculo = triangulo(45, 45);'
 
 }
 
