@@ -11,16 +11,16 @@
 
 function calculos(operador, valor1, valor2){ // DECLARAMOS UNA FUNCIÓN CON TRES PARAMETROS '(operador, valor1, valor2'.
 
-    switch(operador){ // LA CONDICIÓN DE ESTE CONDICIONAL ES 'operador'
-        case "+":
-            return valor1 + valor2; // OPERACIÓN PARA REALIZAR LA SUMA
-        case "-":
-            return valor1 - valor2; // OPERACIÓN PARA REALIZAR LA RESTA
-        case "*":
-            return valor1 * valor2; // OPERACIÓN PARA REALIZAR LA MULTIPLICACIÓN
-        case "/":
-            return valor1 / valor2; // OPERACIÓN PARA REALIZAR LA DIVISIÓN
-        default:
+    switch(operador){ // PALABRA CLAVE QUE ABRE LA ESTRUCTURA Y DEFINE QUÉ VALOR VAS A EVALUAR. 
+        case "+": // CADA OPCIÓN POSIBLE; SI LA VARIABLE COINCIDE CON EL VALOR DEL 'case "+"', EJECUTA ESE BLOQUE.
+            return valor1 + valor2; // OPERACIÓN PARA REALIZAR LA SUMA.
+        case "-": // CADA OPCIÓN POSIBLE; SI LA VARIABLE COINCIDE CON EL VALOR DEL 'case "-"', EJECUTA ESE BLOQUE.
+            return valor1 - valor2; // OPERACIÓN PARA REALIZAR LA RESTA.
+        case "*": // CADA OPCIÓN POSIBLE; SI LA VARIABLE COINCIDE CON EL VALOR DEL 'case "*"', EJECUTA ESE BLOQUE.
+            return valor1 * valor2; // OPERACIÓN PARA REALIZAR LA MULTIPLICACIÓN.
+        case "/": // CADA OPCIÓN POSIBLE; SI LA VARIABLE COINCIDE CON EL VALOR DEL 'case "/"', EJECUTA ESE BLOQUE.
+            return valor1 / valor2; // OPERACIÓN PARA REALIZAR LA DIVISIÓN.
+        default: // EL PLAN B, LO QUE PASA SI NADA COINCIDE.
             return "Introduce un número correcto"
     }
     
