@@ -7,30 +7,20 @@
 // "Hola Mundo" --> "Hola Mundo"
 // "Hola." --> "Hola."
 
-// 1º CREAMOS UNA FUNCION
-// 2º NECESITAMOS ESCRIBIR UN TEXTO EN UNA VARIABLE
-// 3º NECESITAMOS INVERTIR EL TEXTO 
-// 4º NECESITAMOS QUITAR LOS ESPACIOS TANTO INCIALES COMO FINALES
-// 5º NECESITAMOS QUITAR ESPACIOS ENTRE PALABRAS
-
-let cadena = "             ¡Hola,    soy     JavasCript    pero    ahora, me    converti     en JAJAJA!!!              ";
-let cadenalimpia = cadena.trim().split(/\s+/).join(" ");
+let cadena = "            ¡Hola,  soy      JavasCript me    converti en una sonrisa        JAJAJA!!!                     ";
+let cadenaLimpia = cadena.trim().split(/\s+/).join(" ");
 let cadenaRevertida = "";
 
-function inversionStr(){
+function inversionPalabras(){
 
-    for (let i = cadenalimpia.length-1; i>=0; i--){
+    for (let i = cadenaLimpia.length-1; i>=0; i--){
 
-        cadenaRevertida += cadenalimpia[i];
+        cadenaRevertida += cadenaLimpia[i];
 
     }
 
 }
 
-inversionStr();
+inversionPalabras();
 
 console.log(cadenaRevertida);
-
-
-
-
