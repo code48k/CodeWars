@@ -13,6 +13,4 @@ let reverse = nombre.split(" ").reverse().join(" ");
     return reverse;
 }
 
-let resultado = devolucionCadena();
-
-console.log(resultado);
+console.log(devolucionCadena());
