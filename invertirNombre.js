@@ -4,7 +4,15 @@
 
 // "John McClane" --> "McClane John"
 
+function devolucionCadena(){
+
 let nombre = "John McClane";
 
-let reversed = nombre.split(" ").reverse().join(" ");
-console.log(reversed);
+let reverse = nombre.split(" ").reverse().join(" ");
+
+    return reverse;
+}
+
+let resultado = devolucionCadena();
+
+console.log(resultado);
