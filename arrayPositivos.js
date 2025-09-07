@@ -2,7 +2,7 @@
 
 // Ejemplo:
 
-// [1, -4, 7, 12, -9, -8, 21, 27, 32, -45] => 1+7+12=100
+// [1, -4, 7, 12, -9, -8, 21, 27, 32, -45] => 1 + 7 + 12 + 21 + 27 + 32 = 100
 
 // Nota: Si no hay nada que sumar, la suma es 0 por defecto.
 
@@ -16,7 +16,7 @@ function sumar(numeroArray){
     for(let i=0; i<numeroArray.length; i++){
 
         if(numeroArray[i] >= 0){
-            
+
             nuevoArrNum.push(numeroArray[i]);
         }
 
