@@ -6,28 +6,29 @@
 
 // Nota: Si no hay nada que sumar, la suma es 0 por defecto.
 
-// let array = [1, -4, 7, 12];
+let myArr = [1, -4, 7, 12, -9, -8, 21, 27, 32, -45];
 
-let array = [1, -4, 7, 12];
+function sumar(numeroArray){
 
-function eliminar(array, elemento){
+    let nuevoArrNum = [];
+    let sumaResultado = 0;
 
-    let resultado = [];
+    for(let i=0; i<numeroArray.length; i++){
 
-    for(let i=0; i<array.length; i++){
-
-        if (array[i] !== elemento){
-
-        resultado.push(array[i]);
-
+        if(numeroArray[i] >= 0){
+            nuevoArrNum.push(numeroArray[i]);
         }
 
     }
-    
-    return resultado;
+
+    for(let x=0; x<nuevoArrNum.length; x++){
+
+        sumaResultado += nuevoArrNum[x];
+
+    }
+
+    return nuevoArrNum.join(" + ") + " = " + sumaResultado;
 
 }
 
-array = eliminar(array, -4);
-
-console.log(array.join("+") + "=20");
+console.log(sumar(myArr));
