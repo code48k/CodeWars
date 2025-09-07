@@ -2,7 +2,7 @@
 
 // Ejemplo:
 
-// [1, -4, 7, 12] => 1+7+12=20
+// [1, -4, 7, 12, -9, -8, 21, 27, 32, -45] => 1+7+12=100
 
 // Nota: Si no hay nada que sumar, la suma es 0 por defecto.
 
