@@ -16,6 +16,7 @@ function sumar(numeroArray){
     for(let i=0; i<numeroArray.length; i++){
 
         if(numeroArray[i] >= 0){
+            
             nuevoArrNum.push(numeroArray[i]);
         }
 
