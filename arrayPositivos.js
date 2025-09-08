@@ -22,9 +22,9 @@ function sumar(numeroArray){
 
     }
 
-    for(let x=0; x<nuevoArrNum.length; x++){
+    for(let n=0; n<nuevoArrNum.length; n++){
 
-        sumaResultado += nuevoArrNum[x];
+        sumaResultado += nuevoArrNum[n];
 
     }
 
