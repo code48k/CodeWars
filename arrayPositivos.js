@@ -11,6 +11,7 @@ let myArr = [1, -4, 7, 12, -9, -8, 21, 27, 32, -45];
 function sumar(numeroArray){
 
     let nuevoArrNum = [];
+    
     let sumaResultado = 0;
 
     for(let i=0; i<numeroArray.length; i++){
@@ -18,6 +19,7 @@ function sumar(numeroArray){
         if(numeroArray[i] >= 0){
 
             nuevoArrNum.push(numeroArray[i]);
+            
         }
 
     }
