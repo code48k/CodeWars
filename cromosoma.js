@@ -8,7 +8,7 @@
 
 function cromosoma(){
 
-let pregunta = "YYgit ";
+let pregunta = "XY ";
 
 switch (pregunta){
     case "XX":
