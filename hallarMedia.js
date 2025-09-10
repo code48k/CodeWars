@@ -24,18 +24,17 @@ let sumaResultado = 0;
 
 for(let i=0; i<numeroArray.length; i++){
 
-        newArr.push(numeroArray[i]);
+    newArr.push(numeroArray[i]);
 
-    }
+}
 
-        for(let n=0; n<newArr.length; n++){
+for(let n=0; n<newArr.length; n++){
 
-        sumaResultado += newArr[n];
+    sumaResultado += newArr[n];
         
 }
 
-
-    return newArr.join(" + ") + " = " + sumaResultado + " / " + sumaResultado / 4;
+return newArr.join(" + ") + " = " + sumaResultado + " / " + sumaResultado / 4;
     
 
 }
