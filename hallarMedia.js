@@ -24,11 +24,7 @@ let sumaResultado = 0;
 
 for(let i=0; i<numeroArray.length; i++){
 
-    if(numeroArray[i] > 0){
-
         newArr.push(numeroArray[i]);
-
-    }
 
     }
 
@@ -36,7 +32,6 @@ for(let i=0; i<numeroArray.length; i++){
 
         sumaResultado += newArr[n];
         
-
 }
 
 
@@ -45,6 +40,4 @@ for(let i=0; i<numeroArray.length; i++){
 
 }
 
-
 console.log(calculo(myArr));
-
