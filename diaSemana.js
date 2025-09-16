@@ -13,9 +13,8 @@
 let valor = "Sabado";
 
 function diaSemana(){
-
     switch (valor){
-
+        
     case "Domingo":
         console.log("Domingo");
     break;
@@ -39,7 +38,6 @@ function diaSemana(){
         break;
     default:
         console.log("En caso contrario, devuelve Incorrecto, ingrese un número entre 1 y 7");
-
 }
 }
 
