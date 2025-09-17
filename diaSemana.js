@@ -10,43 +10,51 @@
 
 // En caso contrario, devuelve "Incorrecto, ingrese un número entre 1 y 7".
 
-let valor = "Sabado";
+function valorSemana(){
 
-function diaSemana(){
+let valor = 1;
+
+diaSemana(valor);
+
+}
+
+function diaSemana(valor){
+    
     switch (valor){
 
-    case "Domingo":
+    case 1:
         console.log("Domingo");
     break;
 
-    case "Lunes":
+    case 2:
         console.log("Lunes");
     break;
 
-    case "Martes":
+    case 3:
         console.log("Martes");
     break;
 
-    case "Miercoles":
+    case 4:
         console.log("Miercoles");
         break;
 
-    case "Jueves":
+    case 5:
         console.log("Jueves");
         break;
 
-    case "Viernes":
+    case 6:
         console.log("Viernes");
         break;
 
-    case "Sabado":
+    case 7:
         console.log("Sabado");  
         break;
         
     default:
         console.log("En caso contrario, devuelve Incorrecto, ingrese un número entre 1 y 7");
-}
 
 }
 
-diaSemana();
+}
+
+valorSemana();
