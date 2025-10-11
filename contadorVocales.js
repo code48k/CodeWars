@@ -1,4 +1,4 @@
-// Contador de vocales en un texto
+// Contador de vocales en un texto.
 
 let saludo = "Esta noche voy ver una película con mis padres";
 
