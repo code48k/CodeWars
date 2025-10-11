@@ -13,4 +13,5 @@ for (let i=0; i<=saludo.length; i++){
 }
 
 }
-    console.log(vacio);
+
+console.log(vacio);
